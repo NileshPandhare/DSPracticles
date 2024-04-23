@@ -1,0 +1,29 @@
+1. Install JDK-8
+
+ sudo apt-get remove openjdk*
+ sudo apt update
+ sudo apt install openjdk-8-jdk openjdk-8-jre
+
+
+2.Download MPJ Express and extract in the Downloads dir
+
+
+
+3. Install Apache Netbeans
+
+ sudo apt update && sudo apt upgrade
+ sudo snap install netbeans --classic
+
+
+Glassfish server version must be 4.1.1
+
+
+
+//how to install mpj in ubuntu->
+
+1. Install Java Development Kit (JDK):
+2. Download MPJ Express:
+3. Extract the downloaded file:   unzip mpj-v0_44.zip
+4. Set up environment variables:   export MPJ_HOME=/path/to/mpj
+                                                  export PATH=$MPJ_HOME/bin:$PATH
+5. Verify Installation:      mpjrun.sh -h
